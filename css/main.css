@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: #dfbda5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Open Sans', Verdana, Arial, sans-serif;
+}
+.ex-section {
+    background-color: #be9c83;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 19px 3px rgba(34, 60, 80, 0.2);
+}
+.balance, .horse-image-container {
+    background-color: #a58269;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.horse-image-container img {
+    width: 300px;
+    cursor: pointer;
+}
+.btn {
+    padding: 15px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color .3s;
+}
+.reset {
+    background-color: #973131;
+    color: #ffffff;
+}
+.reset:hover {
+    background-color: #7a2323;
+    transition: background-color .3s;
+}
